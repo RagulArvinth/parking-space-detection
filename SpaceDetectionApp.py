@@ -127,8 +127,6 @@ while(cap.isOpened()):
         cv2.rectangle(img, pos, (pos[0] + width, pos[1] + height), (0, 255, 255), 2)
     cv2.imshow("Image", img)
     cv2.setMouseCallback("Image", mouseClick2)
-    #cv2.imshow("ImageBlur", imgBlur)
-    #cv2.imshow("ImageThres", imgMedian)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 cap.release()
