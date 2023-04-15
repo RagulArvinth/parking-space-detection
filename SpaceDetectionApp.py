@@ -6,7 +6,10 @@ import cvzone
 import numpy as np
 
 width,height=210,100
-cam="http://10.199.104.105:8080/video"
+
+#DOWNLOAD IP WEBCAM IN MOBILE, START YOUR SERVER, ENTER THE IP
+
+cam="<YOUR IP>/video"
 
 #####   SELECTING AREA TO DETECT EMPTY SPACE   #####
 try:
